@@ -36,19 +36,7 @@ public class HttpRequest {
         id = response.jsonPath().getInt("id");
         System.out.println("User ID: " + id);
 
-        //JsonPath JsonPathVal = response.jsonPath();
-
-
-
-
-
-
-
     }
-
-
-
-
     @Test(priority=3,dependsOnMethods = "createUser")
     public void updateUserInfo(){
 
