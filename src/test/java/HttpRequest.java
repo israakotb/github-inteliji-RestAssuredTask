@@ -7,7 +7,7 @@ public class HttpRequest {
 
     int id;
     //get verb
-    @Test(priority=1)
+    @Test(priority = 1)
     public void getUsers(){
         given() .headers("x-api-key","reqres_74f57b5f1159436a89c1798547099587")
                 .when()
